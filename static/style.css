@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+    
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/static/bg2.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(7, 13, 26);
+    
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(185, 43, 43);
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 10px;
+}
+#navbar li{
+   list-style: none;
+}
+#navbar li a{
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  font-size: 1.5rem;
+}
+#navbar li a:hover{
+   color: gray;
+   
+}
+#intro{
+    height: 20vh;
+    text-align: center;
+    margin: 10vh;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgba(255, 251, 251, 0.733);
+    letter-spacing: 1.5px;
+}
+#mission{
+    height: 60vh;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0px;
+    color: black;
+}
+#mission h1{
+    color: rgba(255, 251, 251, 0.699);
+    font-size: 2.5rem;
+    
+}
+.card{
+    display: inline-block;
+    /* border: black solid 3px; */
+    border-radius: 10px;
+    width: 29vw;
+    height: 30vh;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgba(255, 251, 251, 0.61);
+    
+}
+#footer{
+    height: 22vh;
+    background-color: rgba(10, 10, 10, 0.788);
+    text-align: center;
+    font-size: 18px;
+    /* padding: 5px; */
+    color: white;
+}
+#sponsors{
+    height: 15vh;
+}
+.sp{
+  height: 55%;
+  margin: 10px 20px;
+}

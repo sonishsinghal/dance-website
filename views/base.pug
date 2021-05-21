@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        block title 
+        block scripts
+        block style 
+      
+    body
+        nav#navbar.top 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact Us ]
+
+        block content
+        footer#footer
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="../static/apple.jpg", alt="apple" class="sp")
+                img(src="../static/ms.jpg", alt="ms" class="sp")
+                img(src="../static/hp.jpg", alt="hp" class="sp")
+                img(src="../static/fb.jpg", alt="fb" class="sp")
+                p   copyright © 2021 Sonish Singhal 

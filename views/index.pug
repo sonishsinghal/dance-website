@@ -1,0 +1,41 @@
+doctype html
+html
+    head 
+        title Dance website 
+        
+        style 
+            include ../static/style.css
+        
+    body 
+        nav#navbar.top 
+           ul 
+             li #[a(href="/") Home]
+             li #[a(href="/") About]
+             li #[a(href="/") Class Info]
+             li #[a(href="/") Contact Us ]
+
+        section#intro
+            h1  Welcome to Sonish's Dance 
+            h2  Eat  sleep  Dance  Repeat 
+
+        section#mission 
+            h1  Our Mission 
+            div.card 
+                h2  Dance Perfection
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum quis omnis consequuntur, repellat minus nemo ipsam voluptatum tempora dicta, error corporis numquam non reiciendis? Officiis expedita quo eaque saepe impedit!
+            div.card 
+                h2 Dance the way you like 
+                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iure quas libero modi obcaecati. Consequuntur sapiente ab suscipit aspernatur reiciendis adipisci natus tenetur omnis delectus incidunt itaque, dolorum vero? Id.
+            div.card 
+                h2 Expert Trainer 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquam saepe, laboriosam      illo, similique hic, atque cum perspiciatis tempore dolorem consequatur sunt eveniet voluptatem officiis eius. Quisquam voluptates aliquam facilis.
+        footer#footer
+            h2 Our Sponsors 
+            div#sponsors
+               img(src="../static/apple.jpg", alt="apple" class="sp")
+               img(src="../static/ms.jpg", alt="ms" class="sp")
+               img(src="../static/hp.jpg", alt="hp" class="sp")
+               img(src="../static/fb.jpg", alt="fb" class="sp")
+               p copyright © 2021 Sonish Singhal 
+        script 
+            include ../static/index.js 
